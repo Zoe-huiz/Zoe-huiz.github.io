@@ -2369,7 +2369,44 @@ button,
     transition: transform 0.5s ease, opacity 0.5s ease;
     position: relative;
     width: calc(33.33333% - 2.5em);
-    margin: 2.5em 0 0 2.5em; }
+    margin: 2.5em 0 0 2.5em;
+    /*
+			&.style1, &.style9 {
+				> .image:before {
+					background-color: _palette(accent2);
+				}
+			}
+
+			&.style2, &.style7 {
+				> .image:before {
+					background-color: _palette(accent2);
+				}
+			}
+
+			&.style3, &.style8 {
+				> .image:before {
+					background-color: _palette(accent2);
+				}
+			}
+
+			&.style4, &.style12 {
+				> .image:before {
+					background-color: _palette(accent2);
+				}
+			}
+
+			&.style5, &.style10 {
+				> .image:before {
+					background-color: _palette(accent2);
+				}
+			}
+
+			&.style6, &.style11 {
+				> .image:before {
+					background-color: _palette(accent2);
+				}
+			}
+			*/ }
     .tiles article > .image {
       -moz-transition: -moz-transform 0.5s ease;
       -webkit-transition: -webkit-transform 0.5s ease;
@@ -2475,18 +2512,6 @@ button,
         opacity: 0; }
         .tiles article > a .content > :last-child {
           margin-bottom: 0; }
-    .tiles article.style1 > .image:before, .tiles article.style9 > .image:before {
-      background-color: #848587; }
-    .tiles article.style2 > .image:before, .tiles article.style7 > .image:before {
-      background-color: #848587; }
-    .tiles article.style3 > .image:before, .tiles article.style8 > .image:before {
-      background-color: #848587; }
-    .tiles article.style4 > .image:before, .tiles article.style12 > .image:before {
-      background-color: #848587; }
-    .tiles article.style5 > .image:before, .tiles article.style10 > .image:before {
-      background-color: #848587; }
-    .tiles article.style6 > .image:before, .tiles article.style11 > .image:before {
-      background-color: #848587; }
     body:not(.is-touch) .tiles article:hover > .image {
       -moz-transform: scale(1.1);
       -webkit-transform: scale(1.1);
@@ -2494,7 +2519,7 @@ button,
       transform: scale(1.1); }
       body:not(.is-touch) .tiles article:hover > .image:before {
         background-color: #333333;
-        opacity: 0.35; }
+        opacity: 0.60; }
       body:not(.is-touch) .tiles article:hover > .image:after {
         opacity: 0; }
     body:not(.is-touch) .tiles article:hover .content {
